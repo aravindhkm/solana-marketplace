@@ -1,0 +1,152 @@
+.innerPagescnt {
+	padding-top:80px;
+	.container{
+		background: url('/assets/images/bg1.png') center top no-repeat;
+		background-size: contain;	
+	}
+}
+
+.lloc-ff18 {
+	font-size: 18px;
+	color: #fff;
+}
+.lloc-8e14 {
+	font-size: 14px;
+	color: #8e8e8e;
+}
+.Txc-10c3 {
+	color: #10c317;
+}
+.llocBngBcnt {
+	a {
+		&:hover {
+			text-decoration: unset;
+			color: #fff;
+		}
+	}
+	padding-left: 9rem;
+}
+.llcshRRpt {
+	border: 1px solid #d2bbff;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	&:hover {
+		background-image: linear-gradient(to right, #10c31a, #15d099);
+		color: white;
+		border: 1px solid transparent;
+	}
+}
+.llocBngB {
+	background: #16151a;
+	padding: 25px 0px;
+}
+.nnBGmi {
+	position: absolute;
+}
+.lcGrphFrm {
+	.form-control {
+		font-size: 14px;
+		border-radius: 10px;
+		border-color: #16151a;
+		background-color: #16151a;
+		color: #8e8e8e;
+		height: 45px;
+		padding: 10px 20px;
+		font-weight: 400;
+		box-shadow: unset;
+		min-width: 160px;
+	}
+	select.form-control {
+		background-image: url('/assets/images/coll-slc-arrw.png');
+		background-size: auto;
+		cursor: pointer;
+		background-repeat: no-repeat;
+	}
+}
+.Txc-f5f5 {
+	color: #f5f5f5;
+}
+.llocTbl {
+	.table {
+		td {
+			color: #8e8e8e;
+			font-size: 14px;
+			min-width: 110px;
+		}
+		thead {
+			th {
+				color: #f5f5f5;
+				font-weight: 400;
+				font-size: 14px;
+				border-bottom: 1px solid #000;
+			}
+		}
+		tbody {
+			tr {
+				&:first-child {
+					td {
+						padding-top: 20px;
+					}
+				}
+			}
+		}
+		th {
+			min-width: 110px;
+		}
+	}
+	border: 1px solid #16151a;
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+@media (max-width:991px) {
+	.cBngBcnt-r {
+		margin-top: 4rem;
+	}
+	.llcDtls {
+		padding: 8px 10px;
+	}
+	.llocTbl {
+		.table {
+			td {
+				min-width: 175px;
+			}
+			th {
+				min-width: 175px;
+			}
+		}
+	}
+}
+
+.collectionTabs{
+	ul.nav-tabs{
+		border-bottom:0px;
+		display:flex;
+		justify-content:center;
+		margin-bottom:25px;
+
+		li.nav-item{
+			a.nav-link{
+				color:#fff;
+				font-size:16px;
+				background:#16151a;
+				border-radius:5px;
+				border:none;
+				min-width:100px;
+				margin:0 5px;
+				text-align:center;
+
+				&.active,&:hover{
+					border:none;
+					background: rgb(16,195,23);
+					background: linear-gradient(90deg, rgba(16,195,23,1) 0%, rgba(21,208,154,1) 100%);
+					cursor:pointer;
+				}
+			}
+		}
+	}
+}
+

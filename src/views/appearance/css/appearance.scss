@@ -1,0 +1,15 @@
+.themeMd-btn{
+	font-size: 16px;
+	color: #f5f5f5;
+	font-weight: 400;
+	background:#16151a;
+	border-radius:10px;
+	margin:5px 5px;
+	transition:all 0.5s;
+
+	&:hover,&.active{
+		background: rgb(16,195,23);
+		background: linear-gradient(90deg, rgba(16,195,23,1) 0%, rgba(21,208,154,1) 100%);
+		color:#fff;
+	}
+}

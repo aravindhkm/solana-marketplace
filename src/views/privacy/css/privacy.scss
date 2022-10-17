@@ -1,0 +1,45 @@
+.innerPagescnt {
+	.container{
+		background: url('/assets/images/bg1.png') center top no-repeat;
+		background-size: contain;	
+	}
+}
+.middle-section-inner {
+	margin: 0 0 20px;
+	padding: 0;
+	h2 {
+		margin: 0 0 30px;
+		padding: 0;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 30px;
+		text-align: center;
+		color: #f5f5f5;
+	}
+	h6 {
+		margin: 0 0 10px;
+		padding: 0;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 30px;
+		text-align: left;
+		color: #f5f5f5;
+	}
+	p {
+		margin: 0 0 20px;
+		padding: 0;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 24px;
+		text-align: left;
+		color: #8e8e8e;
+	}
+}
+.about-img-box { 
+	margin: 30px 0 50px;
+	padding: 0; 
+
+	img { width: 100%; height: auto; max-height: 427px; border-radius: 15px; }
+}
+.ms-para-border { padding: 0 0 15px; border-bottom: 1px solid #222126; margin: 0 0 30px; }
+.about-section .ms-para-border:last-child { border-bottom: 0; }

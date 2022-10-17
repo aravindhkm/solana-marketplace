@@ -1,0 +1,15 @@
+.filter-cnt{
+	select{
+		border:none;
+		border-radius:10px;
+		background:#16151a url('/assets/images/select-dd-icon.png') no-repeat right 15px center;
+		appearance:none;
+		color:#8e8e8e;
+		padding:10px 15px;
+		padding-right:30px;
+		font-size:14px;
+		min-width:160px;
+		margin:0px 5px;
+		margin-bottom:5px;
+	}
+}

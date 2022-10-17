@@ -1,0 +1,315 @@
+.innerPagescnt {
+	.container{
+		background: url('/assets/images/bg1.png') center top no-repeat;
+		background-size: contain;	
+	}
+}
+
+/** Summary Styles **/
+/** Bundle Styles **/
+/** Media Queries **/
+.head-text {
+	font-size: 25px;
+	color: #f5f5f5;
+}
+.blobimg-div {
+	background-color: #16151a;
+	border-radius: 20px;
+	padding: 10px;
+}
+.sellmethod-ul {
+	justify-content: space-between;
+	border-bottom:0px;
+
+	.nav-link.active, .nav-link:hover {
+		background-color: transparent !important;
+		color: unset !important;
+		border-color:transparent;
+	}
+	li {
+		a {
+			padding: 0 !important;
+			background-color: transparent;
+			border-radius: 15px !important;
+		}
+	}
+}
+.nav-link {
+	.tabli-maindiv {
+		position: relative;
+	}
+}
+.nav-link.active {
+	.tabli-maindiv {
+		&::before {
+			border: solid 1px transparent;
+
+			background-image: linear-gradient(to bottom, rgb(22, 21, 26) 0%, rgb(22, 21, 26) 10%, rgb(16, 193, 23) 100%);
+			position: absolute;
+			content: '';
+			height: 100%;
+			width:calc(100% + 2px);
+			top: 2px;
+			left: -1px;
+			z-index: 0;
+			border-radius: 15px;
+		}
+	}
+}
+.tabli-innerdiv{
+	padding:15px;
+	background:#16151a;
+	border-radius:15px;
+	position:relative;
+	z-index:1;
+}
+.sellmethod-content {
+	background-color: #16151a;
+	padding: 15px 25px;
+	border-radius: 15px;
+	transition: .3s ease-in-out;
+	position: relative;
+	border:1px solid transparent;
+	
+	&:hover {
+		border-color:#10c117;
+	}
+}
+.sellmethod-tabcontent {
+	select {
+		width: 100%;
+		background: transparent;
+		padding: 10px 15px;
+		color: #fff;
+		outline: 0;
+		border: 0;
+		border-radius: 10px;
+		appearance: none;
+		background-image: url('/assets/images/header-dd-arrow.png');
+		background-position: center right 15px;
+		background-repeat: no-repeat;
+	}
+}
+
+.summary-maindiv {
+	background-color: #16151a;
+	padding: 15px 25px;
+	border-radius: 15px;
+	height: 100%;
+	position: relative;
+	transition: .3s ease-in-out;
+	border:1px solid transparent;
+	&:hover {
+		border-color:#10c317;
+	}
+}
+.subhead-text {
+	font-size: 18px;
+	color: #f5f5f5;
+}
+.listing-btn {
+	background-image: linear-gradient(to right, rgb(16, 195, 25) 0%, rgb(19, 203, 102) 50%, rgb(21, 208, 154) 100%);
+	border: 0;
+	color: #fff;
+	padding: 10px 12px;
+	border-radius: 15px;
+}
+.expriydate-box {
+	position: relative;
+	z-index: 99;
+	padding: 10px 15px;
+	&::before {
+		border: solid 1px transparent;
+		background: linear-gradient(#16151a, #16151a), linear-gradient( to right, rgb(17, 196, 33) 0%, rgb(16, 195, 25) 10%, rgb(19, 203, 102) 50%, rgb(21, 208, 154) 100%);
+		background-origin: border-box;
+		background-clip: content-box, border-box;
+		position: absolute;
+		content: '';
+		height: 100%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: -1;
+		border-radius: 12px;
+	}
+}
+.instruction-div {
+	select {
+		border: 0;
+	}
+}
+.bounties-div {
+	border-top: 1px solid #09080d;
+	border-bottom: 1px solid #09080d;
+}
+.total-div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.select-div {
+	border: solid 1px transparent;
+	background: linear-gradient(#16151a, #16151a), linear-gradient( to bottom, rgb(21, 208, 154) 0%, rgb(16, 195, 25) 10%, rgb(19, 203, 102) 50%, rgb(16, 193, 23) 100%);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	border-radius: 12px;
+}
+.amount-dropdown {
+	border: solid 1px transparent;
+	background: linear-gradient(#16151a, #16151a), linear-gradient( to bottom, rgb(21, 208, 154) 0%, rgb(16, 195, 25) 10%, rgb(19, 203, 102) 50%, rgb(16, 193, 23) 100%);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	border-radius: 12px;
+	button {
+		span {
+			color: #fff;
+		}
+		&::before {
+			border: solid 1px transparent;
+			background: linear-gradient(#16151a, #16151a), linear-gradient( to bottom, rgb(22, 21, 26) 0%, rgb(22, 21, 26) 10%, rgb(16, 193, 23) 50%, rgb(16, 193, 23) 100%);
+			background-origin: border-box;
+			background-clip: content-box, border-box;
+			position: absolute;
+			content: '';
+			height: 100%;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: -1;
+			border-radius: 15px;
+		}
+		&::after {
+			border: 0;
+			background-image: url('/assets/images/header-dd-arrow.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: auto;
+			height: 6px;
+			width: 11px;
+			position: absolute;
+			top: 17px;
+			right: 10px;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1290px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.sellmethod-ul {
+		flex-direction: column;
+		li {
+			margin-bottom: 15px;
+		}
+	}
+}
+@media only screen and (min-width: 992px) {
+	.total-maindiv {
+		position: absolute;
+		bottom: 0;
+		width: 85%;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.total-maindiv {
+		padding-top: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.sellmethod-ul {
+		flex-direction: column;
+		li {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+@media(max-width:991px){
+	.sellmethod-ul{
+		justify-content:start;
+
+		li{
+			margin-right:5px;
+			margin-bottom:5px;
+		}
+	}
+	.tabli-innerdiv{
+		padding:10px 3px;
+	}
+}
+.text-lightgray {
+	color: #8e8e8e;
+}
+
+.text-lightwhite {
+	color: #f5f5f5;
+}
+
+.text-green {
+	color: #10c317;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #8e8e8e;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width:36px;
+  height:23px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 5px;
+  background-color: #16151a;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #10c317;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #10c317;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(17px);
+  -ms-transform: translateX(17px);
+  transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
